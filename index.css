@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-flow: column nowrap;
+  row-gap: 20px;
+  align-items: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: antiquewhite;
+}
+h1 {
+  color: dodgerblue;
+}
+.btns {
+  display: flex;
+  column-gap: 10px;
+}
+button {
+  padding: 10px;
+  font-size: 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btns #rock {
+  background-color: red;
+}
+.btns #paper {
+  background-color: greenyellow;
+}
+.btns #scissors {
+  background-color: yellow;
+}
+#result {
+  color: indianred;
+  font-weight: bold;
+}
+#scores {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 20px;
+  color: blueviolet;
+  font-weight: bold;
+}
+#scores #user-score {
+  color: rgb(12, 211, 18);
+}
+#scores #computer-score {
+  color: red;
+}
